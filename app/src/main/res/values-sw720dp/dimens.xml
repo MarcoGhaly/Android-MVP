@@ -1,0 +1,13 @@
+<!-- 10” Tablets -->
+<resources>
+    <dimen name="activity_fragment_margin">64dp</dimen>
+    <dimen name="views_margin">32dp</dimen>
+
+    <dimen name="font_title">36sp</dimen>
+    <dimen name="font_large">32sp</dimen>
+    <dimen name="font_medium">28sp</dimen>
+    <dimen name="font_small">24sp</dimen>
+    <dimen name="font_paragraph">20sp</dimen>
+
+    <dimen name="image_dimension">300dp</dimen>
+</resources>

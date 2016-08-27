@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="activity_fragment_margin">32dp</dimen>
+    <dimen name="views_margin">16dp</dimen>
+
+    <dimen name="font_title">28sp</dimen>
+    <dimen name="font_large">24sp</dimen>
+    <dimen name="font_medium">20sp</dimen>
+    <dimen name="font_small">16sp</dimen>
+    <dimen name="font_paragraph">12sp</dimen>
+
+    <dimen name="image_dimension">200dp</dimen>
+</resources>
