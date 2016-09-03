@@ -11,9 +11,8 @@ import com.marco.mvp.views.BasePresenter;
 
 import java.io.IOException;
 
-class LoginPresenter extends BasePresenter implements LoginContract.Presenter {
+class LoginPresenter extends BasePresenter<LoginContract.View> implements LoginContract.Presenter {
 
-    private LoginContract.View view;
     private AccountDataSource dataSource;
 
     private OnLoginListener onLoginListener;
@@ -29,7 +28,6 @@ class LoginPresenter extends BasePresenter implements LoginContract.Presenter {
     public LoginPresenter(LoginContract.View view) {
         super(view);
 
-        this.view = view;
         dataSource = new AccountRepository();
     }
 

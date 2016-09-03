@@ -2,13 +2,13 @@ package com.marco.mvp.views;
 
 import com.marco.mvp.util.PreferencesHandler;
 
-public class BasePresenter implements BaseContract.Presenter {
+public abstract class BasePresenter<T extends BaseContract.View> implements BaseContract.Presenter {
 
-    private BaseContract.View view;
+    protected T view;
 
 
     // Constructor
-    public BasePresenter(BaseContract.View view) {
+    public BasePresenter(T view) {
         this.view = view;
     }
 

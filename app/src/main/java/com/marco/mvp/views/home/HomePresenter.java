@@ -6,9 +6,7 @@ import com.marco.mvp.views.BasePresenter;
 
 import java.io.IOException;
 
-class HomePresenter extends BasePresenter implements HomeContract.Presenter {
-
-    private HomeContract.View view;
+class HomePresenter extends BasePresenter<HomeContract.View> implements HomeContract.Presenter {
 
     private User user;
 
@@ -16,8 +14,6 @@ class HomePresenter extends BasePresenter implements HomeContract.Presenter {
     // Constructor
     public HomePresenter(HomeContract.View view) {
         super(view);
-
-        this.view = view;
     }
 
 
