@@ -19,7 +19,7 @@ import com.marco.mvp.views.login.LoginActivity;
 
 public abstract class BaseFragment<T extends BaseContract.Presenter> extends Fragment implements BaseContract.View<T> {
 
-    private BaseContract.Presenter presenter;
+    protected T presenter;
 
 
     @Override

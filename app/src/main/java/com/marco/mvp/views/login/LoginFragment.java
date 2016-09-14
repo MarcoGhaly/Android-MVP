@@ -26,8 +26,6 @@ public class LoginFragment extends BaseFragment<LoginContract.Presenter> impleme
     private static final int REQUEST_CODE_FORGOT_PASSWORD = 0;
 
 
-    private LoginContract.Presenter presenter;
-
     private TextInputLayout textInputLayout_username;
     private EditText editText_username;
     private TextInputLayout textInputLayout_password;

@@ -9,8 +9,6 @@ import com.marco.mvp.views.BaseFragment;
 
 public class HomeFragment extends BaseFragment<HomeContract.Presenter> implements HomeContract.View {
 
-    private HomeContract.Presenter presenter;
-
     private TextView textView_username;
 
 
